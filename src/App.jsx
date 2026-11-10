@@ -44,9 +44,9 @@ const projects = [
 
 const skills = [
   "Python", "HTML5", "CSS3", "JavaScript",
-  "React.js","Node.js","Express.js" ,"MySQL", "MongoDB", "TensorFlow",
-  "PyTorch", "OpenCV", "Machine Learning",
-  "Deep Learning", "NLP", "Git & GitHub"
+  "React.js","Node.js","Express.js" ,"SQL", "MongoDB","Artificial Intelligence","Machine Learning",
+  "Deep Learning", "NLP","Generative AI", "TensorFlow",
+  "PyTorch", "OpenCV",  "Git & GitHub"
 ];
 
 function App() {
