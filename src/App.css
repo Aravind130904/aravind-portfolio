@@ -174,17 +174,23 @@
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, #263e5d, #141e34);
-  border: 2px solid var(--accent);
+  overflow: hidden;
+  border: 3px solid var(--accent);
   box-shadow: 0 0 60px #a6f36b20;
 }
 
-.profile-circle span {
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+/* .profile-circle span {
   font: 700 65px 'Space Grotesk';
   color: var(--accent);
-}
+} */
 
 .floating-card {
   position: absolute;

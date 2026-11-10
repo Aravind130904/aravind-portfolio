@@ -141,8 +141,8 @@ function App() {
 
         <div className="hero-image">
           <div className="profile-circle">
-            <span>AM</span>
-          </div>
+    <img src="/profile.jpg" alt="Aravind Manne" />
+  </div>
           <div className="floating-card">
             <Code size={18} /> Developer
           </div>
