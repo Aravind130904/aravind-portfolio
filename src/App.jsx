@@ -70,7 +70,7 @@ function App() {
     );
 
     window.location.href =
-      `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+      `mailto:mannearavind07@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const closeMenu = () => setMenu(false);
