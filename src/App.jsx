@@ -9,7 +9,7 @@ import "./App.css";
 
 const projects = [
   {
-    title: "Bone Fracture Classification",
+    title: "Bone Fracture Classification in X-Ray using Deep Learning",
     category: "Deep Learning",
     description:
       "Developed an X-ray fracture classification system using Xception and ResNet50 ensemble models. Implemented YOLOv8 localization and Grad-CAM visualizations.",
@@ -22,15 +22,15 @@ const projects = [
     description:
       "Created a responsive movie discovery application with popular, top-rated, upcoming and movie detail pages using TMDB API.",
     tech: ["React", "JavaScript", "CSS", "REST API"],
-    github: "https://github.com/your-username"
+    github: "https://github.com/Aravind130904/Cinequest"
   },
   {
-    title: "Face Mask Detection",
+    title: "Face Mask Detection using Machine Learning",
     category: "Machine Learning",
     description:
       "Built a face mask detection application using CNN and OpenCV for image-based face mask classification.",
     tech: ["Python", "CNN", "OpenCV"],
-    github: "https://github.com/your-username"
+    github: "https://github.com/Aravind130904/Face-Mask-Detection"
   },
   {
     title: "Image Captioning",
@@ -38,13 +38,13 @@ const projects = [
     description:
       "Developed an image captioning workflow using BLIP and explored image generation using Stable Diffusion.",
     tech: ["Python", "BLIP", "Stable Diffusion"],
-    github: "https://github.com/your-username"
+    github: "https://github.com/Aravind130904/Image_captioning"
   }
 ];
 
 const skills = [
   "Python", "HTML5", "CSS3", "JavaScript",
-  "React.js", "MySQL", "MongoDB", "TensorFlow",
+  "React.js","Node.js","Express.js" ,"MySQL", "MongoDB", "TensorFlow",
   "PyTorch", "OpenCV", "Machine Learning",
   "Deep Learning", "NLP", "Git & GitHub"
 ];
@@ -141,7 +141,7 @@ function App() {
 
         <div className="hero-image">
           <div className="profile-circle">
-    <img src="/profile.jpg" alt="Aravind Manne" />
+    <img src="/profile.png" alt="Aravind Manne" />
   </div>
           <div className="floating-card">
             <Code size={18} /> Developer
@@ -282,13 +282,13 @@ function App() {
 
         <div className="contact-grid">
           <div className="contact-details">
-            <a href="mailto:your.email@example.com">
-              <Mail /> your.email@example.com
+            <a href="mailto:mannearavind07@gmail.com">
+              <Mail /> mannearavind07@gmail.com
             </a>
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank">
+            <a href="https://linkedin.com/in/aravind-manne-358b032a9/" target="_blank">
               <Linkedin /> LinkedIn Profile
             </a>
-            <a href="https://github.com/your-username" target="_blank">
+            <a href="https://github.com/Aravind130904" target="_blank">
               <Github /> GitHub Profile
             </a>
           </div>
