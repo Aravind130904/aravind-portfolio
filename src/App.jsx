@@ -185,6 +185,8 @@ function App() {
             <p>EDUCATION</p>
             <h3>B.Tech - Artificial Intelligence and Machine Learning</h3>
             <h4>Malla Reddy University</h4>
+            <h4>2022 - 2026</h4>
+            <p>CGPA:9.0/10</p>
           </div>
         </div>
       </section>
